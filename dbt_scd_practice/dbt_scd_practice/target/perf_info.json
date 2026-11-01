@@ -1,0 +1,51 @@
+{
+    "path_count": 137,
+    "parsed_path_count": 137,
+    "static_analysis_path_count": 2,
+    "static_analysis_parsed_path_count": 2,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 1.9277349000331014,
+    "load_macros_elapsed": 0.7451046000351198,
+    "parse_project_elapsed": 0.5794364000321366,
+    "patch_sources_elapsed": 7.800001185387373e-06,
+    "process_manifest_elapsed": 0.02859800000442192,
+    "load_all_elapsed": 3.3911748999962583,
+    "projects": [
+        {
+            "project_name": "dbt_scd_practice",
+            "elapsed": 0.5768602999742143,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.2635807999758981,
+                    "parsed_path_count": 2
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.3119035999989137,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 3
+        },
+        {
+            "project_name": "dbt_postgres",
+            "elapsed": 0.0010772999958135188,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0013986000558361411,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.0002049999893642962,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}
